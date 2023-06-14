@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 10px;
 }
 
 header .logo {
@@ -21,5 +22,34 @@ header a {
     color: #E5E7EB;
     text-decoration: none;
     padding: 10px;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.left {
+    width: 25%;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero figure div {
+    border: 1px solid red;
+    width: 30vw;
+    padding: 100px;
 }
 
