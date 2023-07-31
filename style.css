@@ -48,8 +48,103 @@ header a {
 }
 
 .hero figure div {
-    border: 1px solid red;
     width: 30vw;
     padding: 100px;
 }
 
+.hero button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+
+.img{
+    width: 200px;
+}
+
+.img p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.images h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.outline {
+    border: 4px solid #3882F6;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.quote p {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    width: 600px;
+}
+
+.quote h3 {
+    position: relative;
+    top: 150px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 1000px;
+ 
+}
+
+.cta-text {
+    margin: 20px;
+    width: 600px;
+    color: white;
+}
+
+.button button {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bolder;
+}
